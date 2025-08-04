@@ -93,7 +93,6 @@ class _SigninState extends State<Signin> {
               ),
               onEditingComplete: () {
                 passwordFocusNode.unfocus();
-                // يمكنك إضافة هنا تنفيذ تسجيل الدخول مباشرة إذا أردت
               },
             ),
             const SizedBox(height: 10),
