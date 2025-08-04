@@ -54,7 +54,7 @@ class _AuthSwitcherScreenState extends State<AuthSwitcherScreen> {
                           ),
                         ),
                         const SizedBox(height: 20),
-                        Expanded(child: Signin()),  // هنا تحط صفحة تسجيل الدخول
+                        Expanded(child: Signin()),       
                         const SizedBox(height: 20),
                         TextButton(
                           onPressed: toggleView,
@@ -91,7 +91,7 @@ class _AuthSwitcherScreenState extends State<AuthSwitcherScreen> {
                           ),
                         ),
                         const SizedBox(height: 20),
-                        Expanded(child: Signup()),  // هنا تحط صفحة تسجيل الاشتراك
+                        Expanded(child: Signup()),       
                         const SizedBox(height: 20),
                         TextButton(
                           onPressed: toggleView,
