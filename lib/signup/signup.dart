@@ -14,14 +14,14 @@ class _SignupState extends State<Signup> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(  // إضافة التمرير
-      padding: const EdgeInsets.fromLTRB(24, 16, 24, 24), // نفس البادينج
+    return SingleChildScrollView(    
+      padding: const EdgeInsets.fromLTRB(24, 16, 24, 24), 
       child: Container(
         padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
         decoration: BoxDecoration(
-          color: Colors.grey[800], // خلفية رمادية داكنة
+          color: Colors.grey[800],    
           borderRadius: BorderRadius.circular(20),
-          boxShadow: const [], // بدون ظل
+          boxShadow: const [], 
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
